@@ -20,8 +20,6 @@
 
 ---
 
-> 单页不是把内容压小，而是先删掉不承载证据的句子。
->
 > 这份模板把版式留在 LaTeX，把内容集中到 `main.tex`：蓝梯形栏目、项目二级结构、Logo、证件照和个人主页都可以单独开关。
 
 ## ✨ 设计重点
@@ -219,7 +217,7 @@ xmu-resume-template/
 
 [MIT](LICENSE) © RenxuLogan
 
-模板基于 [RenxuLogan/Modern-Resume](https://github.com/RenxuLogan/Modern-Resume)，当前版本在此之上增加了单页压缩、实习项目二级结构、可选 Logo / 证件照 / 个人主页等改动。详见 [NOTICE.md](NOTICE.md)。
+模板基于 [RenxuLogan/Modern-Resume](https://github.com/RenxuLogan/Modern-Resume)，当前版本在此之上增加了实习项目二级结构、可选 Logo / 证件照 / 个人主页等改动。详见 [NOTICE.md](NOTICE.md)。
 
 <div align="center">
 <br/>
