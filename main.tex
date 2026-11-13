@@ -123,6 +123,15 @@
   \end{tikzpicture}
 }
 
+% Optional image in the upper-right corner, such as a profile photo.
+\newcommand{\resumePhotoWidth}{2.35cm}
+\newcommand{\resumePhoto}[1]{
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north east] at ([xshift=-0.42in,yshift=-0.24in]current page.north east)
+      {\includegraphics[width=\resumePhotoWidth]{#1}};
+  \end{tikzpicture}
+}
+
 % Personal homepage or GitHub profile shown after the target role.
 % Replace both values when publishing your own resume.
 \newcommand{\resumeHomepageURL}{https://github.com/yourname}
@@ -135,6 +144,7 @@
 \thispagestyle{empty}
 
 \resumeLogo{xmu.png}
+% \resumePhoto{photo.jpg}
 
 %---------- Header ----------
 \begin{center}
