@@ -114,8 +114,8 @@
 }
 \newcommand{\resumeInternshipItemListEnd}{\end{itemize}\vspace{-4pt}}
 
-% Optional logo in the upper-left corner. Uncomment the call in the document
-% after adding your own image file.
+% Logo in the upper-left corner. The SVG source is included in the repository;
+% the PNG version is used here for portable XeLaTeX builds.
 \newcommand{\resumeLogo}[1]{
   \begin{tikzpicture}[remember picture,overlay]
     \node[anchor=north west] at ([xshift=0.42in,yshift=-0.24in]current page.north west)
@@ -129,7 +129,7 @@
 \begin{document}
 \thispagestyle{empty}
 
-% \resumeLogo{logo.png}
+\resumeLogo{xmu.png}
 
 %---------- Header ----------
 \begin{center}
