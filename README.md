@@ -43,8 +43,25 @@ xelatex main.tex
 所有内容都在 `main.tex` 中，按出现顺序替换以下占位内容：
 
 - `你的姓名`、邮箱、电话、目标岗位
+- `\resumeHomepageURL`、`\resumeHomepageLabel`：个人主页或 GitHub 地址
 - 教育背景、实习经历、科研经历、技术能力、个人荣誉
 - `XX`、`某某`、`XX\%` 等示例数据
+
+### 个人主页 / GitHub
+
+目标岗位后会显示一个个人链接。默认使用 GitHub 占位地址，修改 `main.tex` 中的两个值即可：
+
+```latex
+\newcommand{\resumeHomepageURL}{https://github.com/yourname}
+\newcommand{\resumeHomepageLabel}{github.com/yourname}
+```
+
+如果使用个人主页：
+
+```latex
+\newcommand{\resumeHomepageURL}{https://your-site.com}
+\newcommand{\resumeHomepageLabel}{your-site.com}
+```
 
 ### 替换 Logo
 
