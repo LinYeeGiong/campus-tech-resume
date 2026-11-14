@@ -1,0 +1,50 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A33"/>
+      <stop offset="0.62" stop-color="#0B3159"/>
+      <stop offset="1" stop-color="#0F4C81"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#B9D8F5" stroke-opacity="0.12"/>
+    </pattern>
+    <clipPath id="previewClip">
+      <rect x="812" y="76" width="346" height="490" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <circle cx="1120" cy="80" r="230" fill="#38BDF8" fill-opacity="0.1"/>
+  <circle cx="650" cy="700" r="200" fill="#2563EB" fill-opacity="0.12"/>
+
+  <g transform="translate(80 92)">
+    <rect width="68" height="68" rx="18" fill="#FFFFFF" fill-opacity="0.09" stroke="#A5D8FF" stroke-opacity="0.32"/>
+    <path d="M22 48L34 20L46 48H39L34 33L29 48H22Z" fill="#7DD3FC"/>
+    <text x="90" y="18" fill="#8EC5FF" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600" letter-spacing="4">CAMPUS RECRUITING · TECH</text>
+    <text x="90" y="76" fill="#FFFFFF" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="53" font-weight="700" letter-spacing="-1">Campus Tech</text>
+    <text x="90" y="134" fill="#FFFFFF" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="53" font-weight="700" letter-spacing="-1">Resume</text>
+    <text x="92" y="184" fill="#C7DDF4" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22">单页 A4 中文技术简历 · 校招 / 实习</text>
+    <text x="92" y="216" fill="#C7DDF4" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22">AI Agent · 算法 · 后端开发</text>
+  </g>
+
+  <g transform="translate(82 384)">
+    <rect width="150" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.09" stroke="#A5D8FF" stroke-opacity="0.2"/>
+    <text x="75" y="26" text-anchor="middle" fill="#DCEBFA" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600">ONE PAGE</text>
+    <rect x="164" width="118" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.09" stroke="#A5D8FF" stroke-opacity="0.2"/>
+    <text x="223" y="26" text-anchor="middle" fill="#DCEBFA" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600">XeLaTeX</text>
+    <rect x="296" width="152" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.09" stroke="#A5D8FF" stroke-opacity="0.2"/>
+    <text x="372" y="26" text-anchor="middle" fill="#DCEBFA" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600">XMU-STYLE</text>
+  </g>
+
+  <g transform="translate(82 486)">
+    <text x="0" y="0" fill="#8FB5D8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" letter-spacing="1.4">OVERLEAF READY</text>
+    <text x="0" y="32" fill="#8FB5D8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" letter-spacing="1.4">AI AGENT / ALGORITHM / BACKEND</text>
+  </g>
+
+  <rect x="800" y="64" width="370" height="514" rx="18" fill="#020A14" fill-opacity="0.26"/>
+  <rect x="812" y="76" width="346" height="490" rx="12" fill="#FFFFFF"/>
+  <image href="../preview.png" x="812" y="76" width="346" height="490" preserveAspectRatio="xMidYMid meet" clip-path="url(#previewClip)"/>
+
+  <text x="80" y="590" fill="#8FB5D8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="13" letter-spacing="2.2">XMU-STYLE EDITION · CONTENT IN TEX · LAYOUT IN TIKZ</text>
+</svg>
